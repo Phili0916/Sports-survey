@@ -10,6 +10,5 @@ while response != "":
       survey[response] = 1
 
 print('Favorite baseball teams vote totals are : ')
-for team, score in survey.items():
-  print('-', team, ':', score)
-  
+for team, scores in survey.items():
+  print('-', team, ':', scores)
